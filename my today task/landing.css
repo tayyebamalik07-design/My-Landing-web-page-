@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+header{
+    display: flex;
+    padding: 22px  100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    color: darkblue;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: darkblue;
+    font-size: large;
+    transition: 0.3s;
+}
+nav a:hover{
+    color: purple;
+}
+.hero{
+    text-align: center;
+    padding: 60px 20px;
+}
+.hero h2{
+    margin-bottom: 20px;
+    color: darkslategray;
+    font-size: 38px;
+}
+.hero p{
+    margin-bottom: 20px;
+    color: black;
+    font-size: 16px;
+}
+button{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(79, 127, 222);
+    cursor: pointer;
+    color: aliceblue;
+}
+button:hover{
+    background-color: rgb(84, 240, 84);
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px 100px;
+    transition: 0.4s;
+}
+.card{
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+.card h2{
+    color: #6c63ff;
+    margin: 20px 0 15px;
+}
+.card p{
+    color: black;
+    margin: 0 15px 20px;
+    /* line-height: 1.6; */
+}
+.card:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
